@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "C:/Users/andre/gcc/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    },
+    {
+      "name": "CMake",
+      "compileCommands": "${config:cmake.buildDirectory}/compile_commands.json",
+      "configurationProvider": "ms-vscode.cmake-tools"
+  }
+  ],
+  "version": 4
+}
