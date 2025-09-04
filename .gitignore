@@ -1,0 +1,41 @@
+# Build directories
+build/
+bin/
+*.o
+*.a
+*.so
+*.dll
+
+# IDE files
+.vscode/
+output/
+.idea/
+*.swp
+*.swo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefil
+
+# Executables
+seidel_solver
+seidel_tests
+
+# Documentation
+docs/
+html/
+latex/
+
+# Package files
+*.tar.gz
+*.zip
+
+# Test coverage
+*.gcno
+*.gcda
+coverage/
+
+# macOS
+.DS_Store
